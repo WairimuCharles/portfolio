@@ -1,0 +1,15 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: #fff;
+  text-align: center;
+}
+body{
+  background-image: url("/home/charles/docs/Documents/projects/portfolio/images/bluebridge.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
