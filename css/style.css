@@ -63,43 +63,117 @@ h4{
   font-size: 14px;
   padding: 10px;
 }
-.social-icons{
-  display: block;
+.wrapper{
+  padding: 20px;
   text-align: center;
-  margin-top: 1em;
-  font-size: 2em;
-  color: #678fac;
 }
-.social-icons ul li{
-  display: inline-flex;
-  border: 2px solid #fff;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  padding: 10px;
-  border-radius: 25px;
-  margin: 10px;
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
 }
-.social-icons ul a{
-  display: block;
-  transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+.social-icons .fa {
+    font-size: 1em;
 }
-.social-icons a:hover {
-  transform: rotateY(360deg);
+/*Change icons circle size and color here*/
+.social-icons .fa {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+    border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+    border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+    border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+    color: #FFF;
+    -webkit-box-shadow: 1px 1px 3px #333;
+    -moz-box-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+
 }
 .footer{
   text-align: center;
-  color: #fff;
 }
 @media (max-width: 320px){
   .wrap{
     width: 100%;
+    margin: 0 auto;
   }
-  .social-icon{
-    font-size: 20px;
+}
+@media (max-width: 384px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 414px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 568px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 667px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px){
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
   }
 }
